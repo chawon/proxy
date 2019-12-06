@@ -1,7 +1,8 @@
 function FindProxyForURL(url, host) {
 
-    if (shExpMatch(host, "*.jetbrains.com") ||
-	   shExpMatch(host, "slack.com") ||
+    if (shExpMatch(host, "*.github.com") ||
+        shExpMatch(host, "*.jetbrains.com") ||
+	    shExpMatch(host, "slack.com") ||
         shExpMatch(host, "*.slack.com") ||
         shExpMatch(host, "*.slack-msgs.com") ||
         shExpMatch(host, "*.slack-files.com") ||
