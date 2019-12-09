@@ -8,8 +8,8 @@ function FindProxyForURL(url, host) {
         shExpMatch(host, "10.10.78.177") ||
         shExpMatch(host, "caspi-rm1") ||
         shExpMatch(host, "10.10.76.214") ||
-        shExpMatch(host, "dphname1") ||
-        shExpMatch(host, "10.10.76.41")) 
+        shExpMatch(host, "dphname2") ||
+        shExpMatch(host, "10.10.76.42")) 
         return "DIRECT";
     return "SOCKS 127.0.0.1:8000";
 }
