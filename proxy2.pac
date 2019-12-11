@@ -10,6 +10,7 @@ function FindProxyForURL(url, host) {
         shExpMatch(host, "10.10.76.214") ||
         shExpMatch(host, "dphname2") ||
         shExpMatch(host, "10.10.78.22") ||
+        shExpMatch(host, "10.9.26.12") ||
         shExpMatch(host, "10.10.76.42")) 
         return "DIRECT";
     return "SOCKS 127.0.0.1:8000";
